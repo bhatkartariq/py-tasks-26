@@ -1,6 +1,5 @@
-#finf hypotenuse 
-import math
-a=int(input("enter first side: "))
-b=int(input("enter second side: "))
-hyp=math.sqrt(a**2+b**2)
-print(f"the hypotenuse is: {hyp}")
+print("HYPOTENUSE CALCULATOR")
+s1=float(input("enter one side:"))
+s2=float(input("enter the side:"))
+hp=((s1**2)+(s2**2))**0.5
+print("THE HYPOTENUSE OF THE TRIANGLE:",hp)
